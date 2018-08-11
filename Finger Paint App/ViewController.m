@@ -7,8 +7,14 @@
 //
 
 #import "ViewController.h"
+#import "FingerView.h"
+#import "FingerView.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet FingerView *fingerView;
+
+
 
 @end
 
@@ -25,5 +31,25 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)setToBlueColorButton:(id)sender {
+    NSLog(@"Set to blue");
+    self.fingerView.strokeColor = [UIColor blueColor];
+    [self.fingerView.strokeColor setStroke];
+}
+- (IBAction)setToGreenColorButton:(id)sender {
+}
+- (IBAction)setToOrangeColorButton:(id)sender {
+}
+- (IBAction)setToYellowColorButton:(id)sender {
+}
+
+- (IBAction)setToRedColorButton:(id)sender {
+}
+
+
+- (IBAction)clear:(id)sender {
+    [self.fingerView clear];
+}
 
 @end
