@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,96 +16,115 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vy-Z6-VS3">
-                                <rect key="frame" x="319" y="40" width="36" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="45G-l8-tcU"/>
-                                </constraints>
+                                <rect key="frame" x="680" y="20" width="36" height="30"/>
                                 <state key="normal" title="Clear"/>
                                 <connections>
                                     <action selector="clear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Lv-pv-fZk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WXI-zd-Arm">
-                                <rect key="frame" x="122.5" y="117" width="36" height="30"/>
+                                <rect key="frame" x="248.66666666666663" y="40.333333333333343" width="55" height="55"/>
                                 <color key="backgroundColor" red="0.1773889844" green="1" blue="0.14560643910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="36" id="IDn-oP-yzH"/>
-                                    <constraint firstAttribute="height" constant="30" id="m8j-x5-qyW"/>
+                                    <constraint firstAttribute="width" constant="36" id="IDn-oP-yzH">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="55"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="30" id="m8j-x5-qyW">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="55"/>
+                                    </constraint>
                                 </constraints>
                                 <connections>
                                     <action selector="setToGreenColorButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S3z-ca-SWR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRh-HY-E8z">
-                                <rect key="frame" x="263.5" y="117" width="36" height="30"/>
+                                <rect key="frame" x="524.66666666666663" y="40.333333333333343" width="55" height="55"/>
                                 <color key="backgroundColor" red="1" green="0.099161505699999999" blue="0.1509088576" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="36" id="5Ew-wB-Bqj"/>
-                                    <constraint firstAttribute="height" constant="30" id="uWc-lP-43v"/>
+                                    <constraint firstAttribute="width" constant="36" id="5Ew-wB-Bqj">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="55"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="30" id="uWc-lP-43v">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="55"/>
+                                    </constraint>
                                 </constraints>
                                 <connections>
                                     <action selector="setToRedColorButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q7T-j7-ngm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Av-q3-pO7">
-                                <rect key="frame" x="169.5" y="117" width="36" height="30"/>
+                                <rect key="frame" x="340.66666666666669" y="40" width="55" height="55"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="7LT-AS-38G"/>
-                                    <constraint firstAttribute="width" constant="36" id="8rF-qp-VAJ"/>
+                                    <constraint firstAttribute="height" constant="36" id="7LT-AS-38G">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="55"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="36" id="8rF-qp-VAJ">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="55"/>
+                                    </constraint>
                                 </constraints>
                                 <connections>
                                     <action selector="setToOrangeColorButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bJG-Cc-9Wq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l78-t7-xiU">
-                                <rect key="frame" x="216.5" y="117" width="36" height="30"/>
+                                <rect key="frame" x="432.66666666666669" y="40.333333333333343" width="55" height="55"/>
                                 <color key="backgroundColor" red="0.94941568369999996" green="1" blue="0.35890656710000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="pps-MQ-GDW"/>
-                                    <constraint firstAttribute="width" constant="36" id="rMo-A2-oNn"/>
+                                    <constraint firstAttribute="height" constant="30" id="pps-MQ-GDW">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="55"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="36" id="rMo-A2-oNn">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="55"/>
+                                    </constraint>
                                 </constraints>
                                 <connections>
                                     <action selector="setToYellowColorButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gHM-uB-6wk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sir-mP-e4K">
-                                <rect key="frame" x="76" y="117" width="36" height="30"/>
+                                <rect key="frame" x="156.66666666666666" y="40.333333333333343" width="55" height="55"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="LUK-8Z-fdG"/>
-                                    <constraint firstAttribute="width" constant="36" id="pJI-s9-Scv"/>
+                                    <constraint firstAttribute="height" constant="30" id="LUK-8Z-fdG">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="55"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="36" id="pJI-s9-Scv">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="55"/>
+                                    </constraint>
                                 </constraints>
                                 <connections>
                                     <action selector="setToBlueColorButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mmx-oI-zLt"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ARQ-cR-Xr3" customClass="FingerView">
-                                <rect key="frame" x="0.0" y="163" width="375" height="423"/>
+                                <rect key="frame" x="0.0" y="111.33333333333334" width="736" height="282.66666666666663"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="423" id="0qP-8D-79j"/>
-                                    <constraint firstAttribute="width" constant="375" id="xxA-ob-riO"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ARQ-cR-Xr3" secondAttribute="bottom" constant="81" id="7R7-mT-6VI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ARQ-cR-Xr3" secondAttribute="bottom" constant="20" id="7R7-mT-6VI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0vy-Z6-VS3" secondAttribute="trailing" constant="20" id="QYK-bU-4Aa"/>
+                            <constraint firstItem="ARQ-cR-Xr3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="TZ5-yi-oQ8"/>
                             <constraint firstItem="WXI-zd-Arm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="0.75" id="UOr-f0-C4W"/>
                             <constraint firstItem="0vy-Z6-VS3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="apU-cZ-F8F"/>
                             <constraint firstItem="l78-t7-xiU" firstAttribute="centerY" secondItem="sir-mP-e4K" secondAttribute="centerY" id="csK-qu-plQ"/>
                             <constraint firstItem="8Av-q3-pO7" firstAttribute="centerY" secondItem="sir-mP-e4K" secondAttribute="centerY" id="g87-wN-Jeh"/>
                             <constraint firstItem="yRh-HY-E8z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1.5" id="k51-2F-5B4"/>
-                            <constraint firstItem="0vy-Z6-VS3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="may-Kx-RRA"/>
-                            <constraint firstItem="8Av-q3-pO7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="97" id="qIL-lT-3hj"/>
+                            <constraint firstItem="ARQ-cR-Xr3" firstAttribute="top" secondItem="WXI-zd-Arm" secondAttribute="bottom" constant="16" id="p3h-dq-e6z"/>
+                            <constraint firstItem="8Av-q3-pO7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="97" id="qIL-lT-3hj">
+                                <variation key="heightClass=compact-widthClass=compact" constant="40"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="40"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="97"/>
+                            </constraint>
                             <constraint firstItem="8Av-q3-pO7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="reX-No-jWK"/>
                             <constraint firstItem="l78-t7-xiU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1.25" id="rqe-8o-uED"/>
+                            <constraint firstItem="0vy-Z6-VS3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="tu4-x4-fq4"/>
                             <constraint firstItem="WXI-zd-Arm" firstAttribute="centerY" secondItem="sir-mP-e4K" secondAttribute="centerY" id="v6X-XP-HqT"/>
                             <constraint firstItem="yRh-HY-E8z" firstAttribute="centerY" secondItem="sir-mP-e4K" secondAttribute="centerY" id="v6h-gW-LVB"/>
                             <constraint firstItem="sir-mP-e4K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="0.5" id="v97-SV-9Tf"/>
