@@ -17,6 +17,7 @@
 		7D679079211E2D6A008576C1 /* Finger_Paint_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D679078211E2D6A008576C1 /* Finger_Paint_AppUITests.m */; };
 		7D679088211E3699008576C1 /* Data Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D679087211E3699008576C1 /* Data Model.m */; };
 		7D67908B211E37CE008576C1 /* FingerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D67908A211E37CE008576C1 /* FingerView.m */; };
+		7D69D1E9211F544C00B9C73B /* Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D69D1E8211F544C00B9C73B /* Segment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		7D679087211E3699008576C1 /* Data Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Data Model.m"; sourceTree = "<group>"; };
 		7D679089211E37CE008576C1 /* FingerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FingerView.h; sourceTree = "<group>"; };
 		7D67908A211E37CE008576C1 /* FingerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerView.m; sourceTree = "<group>"; };
+		7D69D1E7211F544C00B9C73B /* Segment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Segment.h; sourceTree = "<group>"; };
+		7D69D1E8211F544C00B9C73B /* Segment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Segment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				7D67905A211E2D69008576C1 /* Main.storyboard */,
 				7D679089211E37CE008576C1 /* FingerView.h */,
 				7D67908A211E37CE008576C1 /* FingerView.m */,
+				7D69D1E7211F544C00B9C73B /* Segment.h */,
+				7D69D1E8211F544C00B9C73B /* Segment.m */,
 				7D67905D211E2D6A008576C1 /* Assets.xcassets */,
 				7D67905F211E2D6A008576C1 /* LaunchScreen.storyboard */,
 				7D679062211E2D6A008576C1 /* Info.plist */,
@@ -277,6 +282,7 @@
 				7D679064211E2D6A008576C1 /* main.m in Sources */,
 				7D679088211E3699008576C1 /* Data Model.m in Sources */,
 				7D679056211E2D69008576C1 /* AppDelegate.m in Sources */,
+				7D69D1E9211F544C00B9C73B /* Segment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
