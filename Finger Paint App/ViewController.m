@@ -38,13 +38,21 @@
     [self.fingerView.strokeColor setStroke];
 }
 - (IBAction)setToGreenColorButton:(id)sender {
+    self.fingerView.strokeColor = [UIColor greenColor];
+    [self.fingerView.strokeColor setStroke];
 }
 - (IBAction)setToOrangeColorButton:(id)sender {
+    self.fingerView.strokeColor = [UIColor orangeColor];
+    [self.fingerView.strokeColor setStroke];
 }
 - (IBAction)setToYellowColorButton:(id)sender {
+    self.fingerView.strokeColor = [UIColor yellowColor];
+    [self.fingerView.strokeColor setStroke];
 }
 
 - (IBAction)setToRedColorButton:(id)sender {
+    self.fingerView.strokeColor = [UIColor redColor];
+    [self.fingerView.strokeColor setStroke];
 }
 
 
